@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Pacifico');
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Alegreya|Bree+Serif|Dancing+Script|Indie+Flower|Pacifico" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+}
+
+nav, .nav-interior {
+    background-color: #3CB371;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links>a {
+    color: #FFFFFF;
+    padding: 0 40px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+h3.title {
+    font-family: 'Pacifico', cursive;
+    font-size: 60px
+}
+
+h5.subtitle {
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    margin-left: 50px;
+    color: black;
+}
+
+.redondo {
+    width: 200px;
+    height: 200px;
+    background-color: #000;
+    color: #FFF;
+    /* Agora a mágica */
+    border-radius: 50%;
+}
+
+img.redondo {
+    border-radius: 50%;
+}
+
+h3.title-artigo {
+    font-family: 'Bree Serif', serif;
+    color: #4682B4
+}
+
+div#link a {
+    display: inline-block;
+    background-color: #B03060;
+    padding: 10px;
+    padding-right: 40px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+div#link a:hover {
+    background-color: #DB7093;
+}
+
+div#artigo h5 {
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 50px;
+    margin: 15px;
+}
+
+div#ajuda h5 {
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+}
+
+div#ajuda{
+  padding-right: 170px;
+  padding-left: 400px;
+  padding-bottom: 200px;
+}
+
+div#ajuda h6 {
+    font-family: 'Bree Serif', serif;
+}
+
+h5.subtitulodeapp {
+  font-family: 'Ubuntu', sans-serif;
+    text-align: justify;
+    text-indent: 50px;
+    margin-left: 300px;
+    margin-right: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    color:#DB7093
+}
+
+h3.principal{
+  font-family:'Times';
+  color: #DB7093;
+  margin-left: 20px;
+
+}
